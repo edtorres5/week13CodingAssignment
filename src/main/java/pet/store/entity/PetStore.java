@@ -42,5 +42,10 @@ public class PetStore {
 	@ToString.Exclude
 	private Set<Employee> employee = new HashSet<>();
 
+	public static Employee[] getEmployees() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
 
