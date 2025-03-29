@@ -34,10 +34,9 @@ public class PetStoreData {
 			customers.add(new PetStoreCustomer(customer));
 		}
 		
-		for(Employee employee : PetStore.getEmployees()) {
+		for(Employee employee : petStore.getEmployee()) {
 			employees.add(new PetStoreEmployee(employee));
 		}
-
 	}
 	
 	@Data
